@@ -12,7 +12,7 @@ def documenter(df):  # to do -> add custom arguments
     'Data Set' - name of the data file imported by the dictify script if
     run via the command line, or by the user if this function is imported
     a la carte.
-    ------
+    -------------
     args:
     df = Pandas dataframe.
     '''
