@@ -22,7 +22,7 @@ def documenter(df):  # to do -> add custom arguments
     else:
         data_set = input('Please enter the name of this dataframe. > ')
 
-    # misisng value percentage
+    # percentage of datapoints that are missing
     na_perc = (df.isnull().sum() / len(df)) * 100
 
     # number of unique values in column

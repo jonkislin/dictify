@@ -89,3 +89,6 @@ if __name__ == '__main__':
     print('Dictifying complete!')
     print(f'Find your file as {dict_name}.xlsx')
     sleep(1)
+
+else:
+    pass
